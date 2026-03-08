@@ -1,0 +1,18 @@
+[project]
+name = "get-weather"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ryu0n",email = "hsung951027@gmail.com"}
+]
+requires-python = ">=3.14,<4.0"
+dependencies = [
+    "ipykernel (>=7.2.0,<8.0.0)",
+    "fastmcp (>=3.1.0,<4.0.0)",
+    "google-genai (>=1.66.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
